@@ -260,6 +260,31 @@ h1 {
   .box-4-all {
     float: left;
     width: 50%;
+
+  }
+}
+.submit-block-4-left {
+  margin-bottom: 2px;
+  padding: 11px 50px;
+  color: $main-color;
+  background-color: $hover-color;
+  font-family: $main-family;
+  border-radius: 27px;
+
+  &:hover {
+    opacity: 0.7;
+  }
+}
+
+.submit-block-4-right {
+  padding: 11px 50px;
+  color: $main-color;
+  background-color: $fifth-color;
+  font-family: $main-family;
+  border-radius: 27px;
+
+  &:hover {
+    opacity: 0.7;
   }
 }
 

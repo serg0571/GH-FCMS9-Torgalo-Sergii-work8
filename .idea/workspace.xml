@@ -2,8 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="520c3628-e15d-42e7-bbb7-1aa4e875309b" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/sass/layout/_buttons.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/sass/layout/_buttons.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/sass/utils/mixins.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/main.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/sass/layout/_footer.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/sass/layout/_footer.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sass/layout/_header.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/sass/layout/_header.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sass/main.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/sass/main.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sass/utils/_variables.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/sass/utils/_variables.scss" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -66,7 +71,7 @@
       <workItem from="1576178235270" duration="7802000" />
       <workItem from="1576246182046" duration="15541000" />
       <workItem from="1576264803860" duration="1698000" />
-      <workItem from="1576300125105" duration="15700000" />
+      <workItem from="1576300125105" duration="17373000" />
     </task>
     <servers />
   </component>

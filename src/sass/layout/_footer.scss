@@ -20,22 +20,21 @@
 @media (min-width: 580px) {
   .tab {
     float: left;
-    width: 50%;
-
-
-  }
+    width: 33%;
+     }
 }
 
-@media (min-width: 866px) {
+/*@media (min-width: 866px) {
   .footer {
-    //float: left;
-    //width: 23%;
+    float: left;
+    width:33%;
     display: flex;
     justify-content: space-around;
-    //align-items: center;
+    align-items: center;
+
   }
 
-}
+}*/
 
 .footer-down {
 
@@ -43,6 +42,7 @@
   background-size: cover;
   background-repeat: no-repeat;
   min-height: 20vh;
+  width: 100%;
 }
 
 .footer-down-size {
@@ -50,28 +50,5 @@
   visibility: hidden;
 }
 
-.submit-block-4-left {
-  margin-bottom: 2px;
-  padding: 11px 50px;
-  color: $main-color;
-  background-color: $hover-color;
-  font-family: $main-family;
-  border-radius: 27px;
 
-  &:hover {
-    opacity: 0.7;
-  }
-}
-
-.submit-block-4-right {
-  padding: 11px 50px;
-  color: $main-color;
-  background-color: $fifth-color;
-  font-family: $main-family;
-  border-radius: 27px;
-
-  &:hover {
-    opacity: 0.7;
-  }
-}
 

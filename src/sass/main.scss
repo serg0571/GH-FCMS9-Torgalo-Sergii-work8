@@ -2,9 +2,10 @@
 @import "normalize/import-now";
 
 @import 'utils/variables';
+@import 'utils/mixins';
 
 @import 'base/basic';
-@import "layout/buttons";
+@import 'layout/buttons';
 
 @import 'layout/grid';
 @import 'layout/header';

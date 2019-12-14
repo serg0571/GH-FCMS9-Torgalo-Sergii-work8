@@ -9,21 +9,3 @@ $main-family: "Roboto Slab", sans-serif;
 $second-family: "Roboto", sans-serif;
 
 
-@mixin link-decor {
-  text-decoration: none;
-  text-transform: uppercase;
-}
-
-@mixin text-decor($color,$font-size,$font-weight,$line-height) {
-  color: $color;
-  font-size: $font-size;
-  font-weight: $font-weight;
-  line-height: $line-height;
-
-}
-
-@mixin flex-style($display,$justify-cont,$align-it) {
-  display: $display;
-  justify-content: $justify-cont;
-  align-items: $align-it;
-}

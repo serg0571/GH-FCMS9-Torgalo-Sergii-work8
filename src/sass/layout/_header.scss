@@ -1,0 +1,264 @@
+///*лого */
+.menu {
+  width: 100%;
+  padding-top: 2%;
+  padding-left: 4vw;
+}
+
+.button {
+  padding: 8px;
+  background-color: $main-color;
+  border-radius: 15px;
+  border: 1px solid $main-color;
+  @include text-decor($third-color, 18px, 400, 24px)
+  font-family: $main-family;
+}
+
+.button:hover {
+  background-color: $hover-color;
+}
+
+///*min-width630-max-width816px*/
+
+
+.logo {
+  text-align: center;
+  //border: 1px solid black;
+}
+
+
+/* header*/
+.box-1 {
+  background-image: url("../../assets/img/photo_room.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: rgba(59, 67, 76, 0.8);
+  font-size: 16px;
+  width: 100%;
+  padding-top: 10%;
+
+  .box-1-content:after {
+    content: "";
+    clear: both;
+    display: table;
+    //text-align: center;
+  }
+}
+
+@media (min-width: 580px) {
+  .photo-food {
+    float: left;
+    width: 50%;
+  }
+  .menu {
+    display: flex;
+
+  }
+  .menu-button {
+    padding: 0 5%;
+  }
+  .menu-text {
+    display: flex;
+  }
+}
+
+h1 {
+  text-align: center;
+  font-family: $main-family;
+  @include text-decor($main-color, 2em, 700, 48px)
+  text-shadow: 0 1px 0 rgba(0, 0, 0, 0.4);
+}
+
+@media (min-width: 839px) {
+  .photo-food {
+    float: left;
+    width: 33%;
+  }
+  h1 {
+    @include text-decor($main-color, 72px, 700, 48px);
+  }
+}
+
+@media (max-width: 840px) {
+  .menu-button {
+    display: flex;
+  }
+  .menu-text {
+    display: none;
+  }
+}
+
+
+.text-under-h1 {
+  text-align: center;
+  text-shadow: 0 1px 0 rgba(0, 0, 0, 0.4);
+  color: $main-color;
+  font-family: $main-family;
+  @include text-decor($main-color, 30px, 700, 48px);
+
+}
+
+.header-food-lard-text {
+  text-align: center;
+  color: $main-color;
+  font-family: $main-family;
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 24px;
+}
+
+.header-food-small-text {
+  color: $main-color;
+  font-family: $second-family;
+  font-size: 15px;
+  font-weight: 300;
+  line-height: 30px;
+}
+
+///* button read me*/
+.header-button {
+  width: 213px;
+  height: 54px;
+  border-radius: 27px;
+  border: 1px solid rgba(255, 255, 255, 0.5);
+  background-color: $main-color;
+  text-align: center;
+  margin: 0 auto;
+  padding-top: 11px;
+
+
+  .header-button-down {
+    //background-color: $main-color;
+    color: #612316;
+    font-family: $main-family;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    position: relative;
+    text-align: center;
+    padding-top: 8px;
+  }
+}
+
+.header-end {
+  visibility: hidden;
+}
+
+///*header end*/
+///*<!--BLOCK-2-->*/
+.block-2 {
+  width: 100%;
+  padding: 0 5%;
+}
+
+.block-2-text {
+  @include text-decor($third-color, 30px, 700, 24px);
+  font-family: $main-family;
+  text-align: center;
+  padding: 2em 0;
+}
+
+.block-2-large-text {
+  @include text-decor($third-color, 24px, 700, 30px);
+  font-family: $main-family;
+  text-align: center;
+}
+
+.block-2-small-text {
+  @include text-decor($third-color, 15px, 300, 30px);
+  font-family: $second-family;
+  text-align: center;
+}
+
+.block-2-photo:after {
+  content: "";
+  clear: both;
+  display: table;
+  text-align: center;
+}
+
+@media (min-width: 834px) {
+  .block-2-photo-1 {
+    float: left;
+    width: 50%;
+  }
+}
+
+@media(min-width: 1050px) {
+  .block-2-photo {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+}
+
+//<!--BLOCK-2 end-->
+
+//<!--BLOCK-3 start-->
+.box-3 {
+  width: 100%;
+  height: 17em;
+  background-image: url("../../assets/img/photo_food.jpg");
+  background-size: cover;
+  margin: 4em 0;
+}
+
+.box-3-large-text {
+  @include text-decor($main-color, 30px, 700, 48px);
+  font-family: $main-family;
+  text-align: center;
+
+}
+
+.box-3-small-text {
+  @include text-decor($main-color, 15px, 300, 24px);
+  font-family: $second-family;
+  text-align: center;
+}
+
+//<!--BLOCK-3 end-->
+//<!--BLOCK-4 start-->
+.box-4 {
+  width: 100%;
+  padding: 0 2em;
+  background-color: $main-color;
+
+}
+
+
+.box-4-lard-text {
+  @include text-decor($fourth-color, 30px, 700, 48px);
+  font-family: $main-family;
+  text-align: center;
+  padding: 0 2em;
+}
+
+.box-4-small-text {
+  @include text-decor($fourth-color, 16px, 300, 30px);
+  font-family: $second-family;
+  text-align: center;
+  padding: 0 2em;
+}
+
+@media (max-width: 840px) {
+  .box-4-photo-left {
+    display: none;
+  }
+}
+
+.box-4:after {
+  content: "";
+  clear: both;
+  display: table;
+  text-align: center;
+}
+
+@media (min-width: 1000px) {
+  .box-4-all {
+    float: left;
+    width: 50%;
+  }
+}
+
+
+

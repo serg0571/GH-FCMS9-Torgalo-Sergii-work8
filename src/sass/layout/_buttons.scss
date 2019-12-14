@@ -1,14 +1,15 @@
-.box-3-button .text-center{
+.box-3-button .text-center {
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
 }
-.box-3-button-email, .box-3-button-left{
+
+.box-3-button-email, .box-3-button-left {
   border: 3px solid #218294;
   border-radius: 25px;
   font-size: 18px;
-  color:$sixty-color;
+  color: $sixty-color;
   text-decoration: none;
   text-transform: uppercase;
   width: 250px;
@@ -25,8 +26,9 @@
 .box-3-button-email:hover {
   color: $hover-color;
 }
-.box-3-button-left:hover{
- background-color: $hover-color;
+
+.box-3-button-left:hover {
+  background-color: $hover-color;
 }
 
 

@@ -12,6 +12,7 @@ body {
 
 .container {
   width: 80%;
+
   max-width: 1200px;
   margin: 0 auto;
   padding: 0 15px;
@@ -21,7 +22,9 @@ input[type="text"], input[type="email"], input[type="submit"] {
   border: none;
   list-style: none;
 }
-
+.text-center{
+  text-align: center;
+}
 
 
 .icon-point {

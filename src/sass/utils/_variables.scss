@@ -1,19 +1,20 @@
-
 $main-color: #ffffff;
 $second-color: #d75d0e;
 $third-color: #31353e;
 $fourth-color: #191b29;
-$fifth-color:  #4b4e73;
+$fifth-color: #4b4e73;
+$sixty-color: #612316;
 $hover-color: #dd4b2b;
-$main-family:  "Roboto Slab", sans-serif;
+$main-family: "Roboto Slab", sans-serif;
 $second-family: "Roboto", sans-serif;
 
 
-@mixin link-decor{
+@mixin link-decor {
   text-decoration: none;
   text-transform: uppercase;
 }
-@mixin text-decor($color,$font-size,$font-weight,$line-height){
+
+@mixin text-decor($color,$font-size,$font-weight,$line-height) {
   color: $color;
   font-size: $font-size;
   font-weight: $font-weight;
@@ -21,7 +22,7 @@ $second-family: "Roboto", sans-serif;
 
 }
 
-@mixin flex-style($display,$justify-cont,$align-it){
+@mixin flex-style($display,$justify-cont,$align-it) {
   display: $display;
   justify-content: $justify-cont;
   align-items: $align-it;

@@ -5,14 +5,11 @@
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/assets/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/main.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/img/layers-left.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/img/layers-rigth.jpg" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/sass/base/_basic.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/sass/base/_basic.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/sass/layout/_buttons.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/sass/layout/_buttons.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/sass/layout/_footer.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/sass/layout/_footer.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sass/layout/_header.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/sass/layout/_header.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/sass/layout/work.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/sass/layout/work.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sass/main.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/sass/main.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sass/utils/_variables.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/sass/utils/_variables.scss" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -40,7 +37,7 @@
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/sass/layout/_grid.scss" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/sass/layout/work.scss" />
     <property name="list.type.of.created.stylesheet" value="SCSS" />
     <property name="nodejs_package_manager_path" value="npm" />
   </component>
@@ -75,7 +72,7 @@
       <workItem from="1576178235270" duration="7802000" />
       <workItem from="1576246182046" duration="15541000" />
       <workItem from="1576264803860" duration="1698000" />
-      <workItem from="1576300125105" duration="13161000" />
+      <workItem from="1576300125105" duration="15320000" />
     </task>
     <servers />
   </component>

@@ -1,0 +1,85 @@
+/*.box-3-button-emailt::before,
+.box-3-button-emailt::after {
+  position: absolute;
+  content: '';
+  width: 100%;
+  height: 100%;
+  background: #218294;
+  top: 0;
+  left: -100%;
+  opacity: .5;
+
+  z-index: -1;
+}*/
+
+/*
+
+.box-3-button {
+  height: 55px;
+  background-color: $main-color;
+  border-radius: 27px;
+  color: $main-color;
+  font-family: $main-family;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 30px;
+  padding: 10px 20px;
+  position: absolute;
+
+
+  &:hover {
+    background-color: $second-color;
+    color: $main-color;
+  }
+}
+
+.box-3-button-email,
+.box-3-button-left {
+  width: 100%;
+  max-width: 210px;
+  border-radius: 27px;
+  font-family: $main-family;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 30px;
+  padding: 10px 20px;
+}
+
+.box-3-button-email {
+  background-color: $main-color;
+  color: $main-color;
+
+  &:hover {
+    opacity: 0.8;
+  }
+}
+
+.box-3-button-left {
+  background-color: $second-color;
+  color: $main-color;
+
+  &:hover {
+    opacity: 0.8;
+  }
+}
+
+@media (min-width: 320px) {
+  .box-3-button-left
+  .box-3-button-email {
+    right: 5px;
+  }
+}
+
+@media (min-width: 480px) {
+  .box-3-button{
+    width: 140px;
+  }
+}
+
+@media (min-width: 640px) {
+  .box-3-button{
+    width: 210px;
+  }
+}
+
+*/
